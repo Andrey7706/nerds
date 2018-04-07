@@ -1,0 +1,344 @@
+@import url(reset.css);
+
+html, body, p {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.layout-center-wrapper {
+	width: 880px;
+	margin: 0 auto;
+}
+
+/*Шапка*/
+
+.header {
+
+}
+
+.header-top:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.header-top-logo {
+	float: left;
+	padding-top: 24px;
+}
+
+.header-top-menu {
+	float: left;
+	margin-left: 150px;
+	padding-top: 60px;
+}
+
+.header-top-menu li {
+	float: left;
+	margin-right: 42px;
+}
+
+.header-top-menu li a {
+	font-size: 14px;
+	color: #000000;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
+.header-top-menu li a:hover {
+	border-bottom: 2px solid #fb565a;
+	padding-bottom: 9px;
+}
+
+.header-top-basket {
+	float: right;
+	padding-top: 60px;
+	text-align: right;
+	background: url(images/basket.png) no-repeat bottom left;
+}
+
+.header-top-basket a {
+	font-size: 14px;
+	color: #000000;
+	font-weight: 500;
+	text-transform: uppercase;
+	padding-left: 34px;
+
+}
+
+.slider {
+
+}
+
+/*Промо-блок*/
+
+.promo-blok {
+	margin-top: 78px;
+	padding-bottom: 80px;
+	border-bottom: 2px solid #eeeeee;
+}
+
+.promo-blok h3 {
+	font-size: 16px;
+	color: #000000;
+	font-weight: 500;
+	text-transform: uppercase;
+	margin-top: 26px;
+	margin-bottom: 26px;
+}
+
+.promo-blok p {
+	font-size: 16px;
+	color: #283136;
+	font-weight: 300;
+	margin-bottom: 30px;
+}
+
+.promo-blok:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.promo-blok-left {
+	width: 240px;
+	float: left;
+}
+
+.promo-blok-center {
+	width: 240px;
+	float: left;
+	margin-left: 80px;
+}
+
+.promo-blok-right {
+	width: 240px;
+	float: left;
+	margin-left: 80px;
+}
+
+.btn {
+	width: 140px;
+	height: 38px;
+	display: block;
+	color: #ffffff;
+	text-transform: uppercase;
+	border-radius: 2px;
+	text-align: center;
+	line-height: 38px;
+}
+
+.red {
+	background: #fb565a;
+}
+
+.red:hover {
+	background:#d6494d;
+}
+
+.green {
+	background: #00ca74;
+}
+
+.green:hover {
+	background: #01a55f;
+}
+
+.yellow {
+	background: #efc84a;
+}
+
+.yellow:hover {
+	background: #ceac3e;
+}
+
+/*Контент*/
+
+.content {
+	padding: 74px 0;
+	border-bottom: 2px solid #eeeeee;
+}
+
+.content h1 {
+	font-size: 36px;
+	color: #000000;
+	font-weight: 500;
+	margin-bottom: 22px;
+}
+
+.content img {
+	display: block;
+	float: right;
+	padding-left: 78px;
+	padding-top: 6px;
+}
+
+.content p {
+	font-size: 16px;
+	color: #283136;
+	font-weight: 300;
+}
+
+.content h2 {
+	font-size: 16px;
+	color: #000000;
+	font-weight: 500;
+	text-transform: uppercase;
+	margin-top: 49px;
+}
+
+.content ul li {
+	font-size: 16px;
+	color: #283136;
+	font-weight: 300;
+	margin-top: 30px;
+	padding-left: 36px;
+	background: url(images/list-style-img.jpg) no-repeat center left; 
+
+}
+
+.partners {
+	margin-top: 40px;
+	padding-bottom: 30px;
+	border-bottom: 2px solid #eeeeee;
+}
+
+.partners:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.partners a {
+	float: left;
+	display: block;
+	margin-right: 135px;
+	height: 89px;
+	line-height: 110px;
+}
+
+.partners a:nth-child(3) {
+	margin-right: 0;
+}
+
+.glukhanko:hover {
+	background: url(images/logo-glukhanko-hover.png) no-repeat;
+}
+
+.htmlacademy:hover {
+	background: url(images/logo-htmlacademy-hover.png) no-repeat;
+}
+
+.borodinski:hover {
+	background: url(images/logo-borodinski-hover.png) no-repeat;
+}
+
+/*Карта*/
+
+.maps {
+	background: url(images/maps.jpg) no-repeat;
+	width: 1280px;
+	height: 417px;
+	margin: 0 auto;
+	margin-top: 50px;
+	position: relative;
+}
+
+.maps-adress {
+	background: #ffffff;
+	position: absolute;
+	top: 85px;
+	left: 196px;
+	width: 218px;
+	height: 212px;
+	padding-top: 28px;
+	padding-left: 22px;
+}
+
+.maps-adress h4 {
+	font-size: 16px;
+	font-weight: 100;
+	text-transform: uppercase;
+}
+
+.maps-adress span {
+	font-size: 16px;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
+.maps-adress p {
+	font-size: 16px;
+	color: #283136;
+	font-weight: 300;
+	margin-top: 25px;
+}	
+
+.maps-adress .btn {
+	width: 195px;
+	margin-top: 30px;
+}
+
+/*Подвал*/
+
+.footer {
+	padding-top: 78px;
+	padding-bottom: 78px;
+}
+
+.footer:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.social {
+	float: left;
+}
+
+.btn-social{
+	width: 63px;
+	height: 62px;
+	display: inline-block;
+	margin-right: 25px;
+}
+
+.btn-social-vk {
+	background: url(images/vk.jpg) no-repeat;
+}
+
+.btn-social-vk:hover {
+	background: url(images/vk-hover.jpg) no-repeat;
+}
+
+.btn-social-fb {
+	background: url(images/fb.jpg) no-repeat;
+}
+
+.btn-social-fb:hover {
+	background: url(images/fb-hover.jpg) no-repeat;
+}
+
+.btn-social-inst {
+	background: url(images/inst.png) no-repeat;
+}
+
+.btn-social-inst:hover {
+	background: url(images/inst-hover.png) no-repeat;
+}
+
+.text {
+	float: right;
+}
